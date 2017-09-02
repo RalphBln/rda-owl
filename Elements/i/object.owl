@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://rdaregistry.info/Elements/i/object/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: RDA Item object properties -->
+<owl:Ontology rdf:about="http://rdaregistry.info/Elements/i/object/">
+  <dc:title xml:lang="en">RDA Item object properties</dc:title>
+  <skos:note  xml:lang="en">Object properties derived from RDA elements and relationship designators with the domain of RDA Item.</skos:note>
+</owl:Ontology>
+
+<!-- Properties -->
+
+<!-- Property: is accompanied by (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40029">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">accompaniedByItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/accompaniedByItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40029" />
+  <rdfs:label xml:lang="en">is accompanied by (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40029" />
+</owl:ObjectProperty>
+
+<!-- Property: has accompanying item relationship with -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40051">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">accompanyingItemRelationship</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/accompanyingItemRelationship.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40051" />
+  <rdfs:label xml:lang="en">has accompanying item relationship with</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40051" />
+</owl:ObjectProperty>
+
+<!-- Property: is analysed in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40063">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">analysedInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/analysedInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10266" />
+  <rdfs:label xml:lang="en">is analysed in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40063" />
+</owl:ObjectProperty>
+
+<!-- Property: has annotator -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40015">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">annotator</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/annotator.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10004" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50128" />
+  <rdfs:label xml:lang="en">has annotator</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40015" />
+</owl:ObjectProperty>
+
+<!-- Property: has autographer -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40016">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">autographer</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/autographer.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10004" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50129" />
+  <rdfs:label xml:lang="en">has autographer</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40016" />
+</owl:ObjectProperty>
+
+<!-- Property: has binder -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40013">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">binder</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/binder.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10004" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50123" />
+  <rdfs:label xml:lang="en">has binder</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40013" />
+</owl:ObjectProperty>
+
+<!-- Property: is bound with -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40032">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">boundWith</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/boundWith.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40032" />
+  <rdfs:label xml:lang="en">is bound with</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40032" />
+</owl:ObjectProperty>
+
+<!-- Property: has collection registrar -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40005">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">collectionRegistrar</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/collectionRegistrar.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50046" />
+  <rdfs:label xml:lang="en">has collection registrar</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40005" />
+</owl:ObjectProperty>
+
+<!-- Property: has collector -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40004">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">collector</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/collector.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50045" />
+  <rdfs:label xml:lang="en">has collector</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40004" />
+</owl:ObjectProperty>
+
+<!-- Property: is commentary in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40064">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">commentaryInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/commentaryInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10270" />
+  <rdfs:label xml:lang="en">is commentary in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40064" />
+</owl:ObjectProperty>
+
+<!-- Property: is contained in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40009">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">containedInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/containedInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40034" />
+  <rdfs:label xml:lang="en">is contained in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40009" />
+</owl:ObjectProperty>
+
+<!-- Property: is container of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40034">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">containerOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/containerOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40009" />
+  <rdfs:label xml:lang="en">is container of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40034" />
+</owl:ObjectProperty>
+
+<!-- Property: is critiqued in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40065">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">critiquedInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/critiquedInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10269" />
+  <rdfs:label xml:lang="en">is critiqued in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40065" />
+</owl:ObjectProperty>
+
+<!-- Property: has curator -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40017">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">curator</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/curator.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50133" />
+  <rdfs:label xml:lang="en">has curator</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40017" />
+</owl:ObjectProperty>
+
+<!-- Property: has current owner -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40018">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">currentOwner</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/currentOwner.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50162" />
+  <rdfs:label xml:lang="en">has current owner</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40018" />
+</owl:ObjectProperty>
+
+<!-- Property: has custodian -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40020">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">custodian</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/custodian.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50164" />
+  <rdfs:label xml:lang="en">has custodian</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40020" />
+</owl:ObjectProperty>
+
+<!-- Property: has dedicatee (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40025">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">dedicateeOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/dedicateeOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50210" />
+  <rdfs:label xml:lang="en">has dedicatee (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40025" />
+</owl:ObjectProperty>
+
+<!-- Property: has depositor -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40006">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">depositor</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/depositor.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50047" />
+  <rdfs:label xml:lang="en">has depositor</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40006" />
+</owl:ObjectProperty>
+
+<!-- Property: is described in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40062">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">describedInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/describedInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10265" />
+  <rdfs:label xml:lang="en">is described in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40062" />
+</owl:ObjectProperty>
+
+<!-- Property: has digital transfer (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40056">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">digitalTransferItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/digitalTransferItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40039" />
+  <rdfs:label xml:lang="en">has digital transfer (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40056" />
+</owl:ObjectProperty>
+
+<!-- Property: is digital transfer of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40039">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">digitalTransferOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/digitalTransferOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40056" />
+  <rdfs:label xml:lang="en">is digital transfer of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40039" />
+</owl:ObjectProperty>
+
+<!-- Property: has donor -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40007">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">donor</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/donor.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50066" />
+  <rdfs:label xml:lang="en">has donor</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40007" />
+</owl:ObjectProperty>
+
+<!-- Property: has electronic reproduction (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40057">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">electronicReproductionItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/electronicReproductionItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40027" />
+  <rdfs:label xml:lang="en">has electronic reproduction (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40057" />
+</owl:ObjectProperty>
+
+<!-- Property: is electronic reproduction of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40027">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">electronicReproductionOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/electronicReproductionOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40057" />
+  <rdfs:label xml:lang="en">is electronic reproduction of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40027" />
+</owl:ObjectProperty>
+
+<!-- Property: has equivalent (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40031">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">equivalentItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/equivalentItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40031" />
+  <rdfs:label xml:lang="en">has equivalent (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40031" />
+</owl:ObjectProperty>
+
+<!-- Property: has equivalent item relationship with -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40053">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">equivalentItemRelationship</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/equivalentItemRelationship.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40053" />
+  <rdfs:label xml:lang="en">has equivalent item relationship with</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40053" />
+</owl:ObjectProperty>
+
+<!-- Property: is evaluated in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40066">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">evaluatedInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/evaluatedInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10267" />
+  <rdfs:label xml:lang="en">is evaluated in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40066" />
+</owl:ObjectProperty>
+
+<!-- Property: has facsimile (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40058">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">facsimileItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/facsimileItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40045" />
+  <rdfs:label xml:lang="en">has facsimile (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40058" />
+</owl:ObjectProperty>
+
+<!-- Property: is facsimile of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40045">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">facsimileOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/facsimileOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40058" />
+  <rdfs:label xml:lang="en">is facsimile of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40045" />
+</owl:ObjectProperty>
+
+<!-- Property: is filmed with (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40036">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">filmedWithItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/filmedWithItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40036" />
+  <rdfs:label xml:lang="en">is filmed with (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40036" />
+</owl:ObjectProperty>
+
+<!-- Property: has former owner -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40019">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">formerOwner</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/formerOwner.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50163" />
+  <rdfs:label xml:lang="en">has former owner</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40019" />
+</owl:ObjectProperty>
+
+<!-- Property: has honouree (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40022">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">honoureeOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/honoureeOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50167" />
+  <rdfs:label xml:lang="en">has honouree (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40022" />
+</owl:ObjectProperty>
+
+<!-- Property: has illuminator -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40012">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">illuminator</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/illuminator.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10004" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50092" />
+  <rdfs:label xml:lang="en">has illuminator</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40012" />
+</owl:ObjectProperty>
+
+<!-- Property: has inscriber -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40014">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">inscriber</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/inscriber.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10004" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50125" />
+  <rdfs:label xml:lang="en">has inscriber</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40014" />
+</owl:ObjectProperty>
+
+<!-- Property: has manifestation exemplified -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40049">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">manifestationExemplified</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/manifestationExemplified.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10007" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/object/P30103" />
+  <rdfs:label xml:lang="en">has manifestation exemplified</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40049" />
+</owl:ObjectProperty>
+
+<!-- Property: is on disc with (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40035">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">onDiscWithItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/onDiscWithItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40035" />
+  <rdfs:label xml:lang="en">is on disc with (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40035" />
+</owl:ObjectProperty>
+
+<!-- Property: has other agent associated with item -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40023">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">otherAgentItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/otherAgentItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50182" />
+  <rdfs:label xml:lang="en">has other agent associated with item</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40023" />
+</owl:ObjectProperty>
+
+<!-- Property: has owner -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40021">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">owner</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/owner.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50165" />
+  <rdfs:label xml:lang="en">has owner</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40021" />
+</owl:ObjectProperty>
+
+<!-- Property: has preservation facsimile (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40059">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">preservationFacsimileItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/preservationFacsimileItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40044" />
+  <rdfs:label xml:lang="en">has preservation facsimile (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40059" />
+</owl:ObjectProperty>
+
+<!-- Property: is preservation facsimile of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40044">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">preservationFacsimileOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/preservationFacsimileOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40059" />
+  <rdfs:label xml:lang="en">is preservation facsimile of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40044" />
+</owl:ObjectProperty>
+
+<!-- Property: has related agent (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40072">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedAgentItem</reg:name>
+  <rdfs:label xml:lang="en">has related agent (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedAgentItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50308" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40072" />
+</owl:ObjectProperty>
+
+<!-- Property: has related collective agent (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40076">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedCollectiveAgentItem</reg:name>
+  <rdfs:label xml:lang="en">has related collective agent (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedCollectiveAgentItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10011" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40072" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50363" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40076" />
+</owl:ObjectProperty>
+
+<!-- Property: has related corporate body (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40075">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedCorporateBodyItem</reg:name>
+  <rdfs:label xml:lang="en">has related corporate body (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedCorporateBodyItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10005" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40076" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50332" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40075" />
+</owl:ObjectProperty>
+
+<!-- Property: has related entity (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40068">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedEntityItem</reg:name>
+  <rdfs:label xml:lang="en">has related entity (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedEntityItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10013" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/x/object/P00001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/x/object/P00005" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40068" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/i/object/P40046" />
+</owl:ObjectProperty>
+
+<!-- Property: has related expression (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40070">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedExpressionItem</reg:name>
+  <rdfs:label xml:lang="en">has related expression (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedExpressionItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10006" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/object/P20300" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40070" />
+</owl:ObjectProperty>
+
+<!-- Property: has related family (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40074">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedFamilyItem</reg:name>
+  <rdfs:label xml:lang="en">has related family (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedFamilyItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10008" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40076" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50323" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40074" />
+</owl:ObjectProperty>
+
+<!-- Property: has related item (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40046">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedItemItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedItemItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40046" />
+  <rdfs:label xml:lang="en">has related item (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40046" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+</owl:ObjectProperty>
+
+<!-- Property: has related manifestation (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40071">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedManifestationItem</reg:name>
+  <rdfs:label xml:lang="en">has related manifestation (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedManifestationItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10007" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/m/object/P30140" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40071" />
+</owl:ObjectProperty>
+
+<!-- Property: has related nomen (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40079">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedNomenItem</reg:name>
+  <rdfs:label xml:lang="en">has related nomen (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedNomenItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10012" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/n/object/P80004" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40079" />
+</owl:ObjectProperty>
+
+<!-- Property: has related person (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40073">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedPersonItem</reg:name>
+  <rdfs:label xml:lang="en">has related person (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedPersonItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10004" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40072" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50314" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40073" />
+</owl:ObjectProperty>
+
+<!-- Property: has related place (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40077">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedPlaceItem</reg:name>
+  <rdfs:label xml:lang="en">has related place (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedPlaceItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/p/object/P70007" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40077" />
+</owl:ObjectProperty>
+
+<!-- Property: has related time-span (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40078">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedTimespanItem</reg:name>
+  <rdfs:label xml:lang="en">has related time-span (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedTimespanItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10010" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/t/object/P70004" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40078" />
+</owl:ObjectProperty>
+
+<!-- Property: has related work (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40069">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedWorkItem</reg:name>
+  <rdfs:label xml:lang="en">has related work (item)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/relatedWorkItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10310" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40068" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40069" />
+</owl:ObjectProperty>
+
+<!-- Property: is reprinted as (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40060">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">reprintedAsItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/reprintedAsItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40038" />
+  <rdfs:label xml:lang="en">is reprinted as (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40060" />
+</owl:ObjectProperty>
+
+<!-- Property: is reprint of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40038">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">reprintOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/reprintOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40060" />
+  <rdfs:label xml:lang="en">is reprint of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40038" />
+</owl:ObjectProperty>
+
+<!-- Property: is reproduced as (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40055">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">reproducedAsItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/reproducedAsItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40042" />
+  <rdfs:label xml:lang="en">is reproduced as (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40055" />
+</owl:ObjectProperty>
+
+<!-- Property: is reproduction of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40042">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">reproductionOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/reproductionOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40055" />
+  <rdfs:label xml:lang="en">is reproduction of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40042" />
+</owl:ObjectProperty>
+
+<!-- Property: has restorationist (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40024">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">restorationistItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/restorationistItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50206" />
+  <rdfs:label xml:lang="en">has restorationist (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40024" />
+</owl:ObjectProperty>
+
+<!-- Property: is reviewed in (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40067">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">reviewedInItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/reviewedInItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10268" />
+  <rdfs:label xml:lang="en">is reviewed in (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40067" />
+</owl:ObjectProperty>
+
+<!-- Property: has seller -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40008">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">seller</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/seller.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10002" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/a/object/P50067" />
+  <rdfs:label xml:lang="en">has seller</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40008" />
+</owl:ObjectProperty>
+
+<!-- Property: is subject of (item) -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40061">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">subjectOfItem</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/subjectOfItem.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10001" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/x/object/P00014" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10260" />
+  <rdfs:label xml:lang="en">is subject of (item)</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40061" />
+</owl:ObjectProperty>
+
+<!-- Property: has whole-part item relationship with -->
+<owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/i/object/P40054">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/i/object/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">wholePartItemRelationship</reg:name>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/i/object/wholePartItemRelationship.en" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:range rdf:resource="http://rdaregistry.info/Elements/c/C10003" />
+  <rdfs:label xml:lang="en">has whole-part item relationship with</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/i/P40054" />
+  <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/i/object/P40054" />
+</owl:ObjectProperty>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xml:base="http://rdaregistry.info/Elements/p/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Element Set: RDA Place properties -->
+<owl:Ontology rdf:about="http://rdaregistry.info/Elements/p/">
+  <dc:title xml:lang="en">RDA Place properties</dc:title>
+  <skos:note  xml:lang="en">Properties derived from RDA elements and relationship designators with the domain of RDA Place.</skos:note>
+</owl:Ontology>
+
+<!-- Properties -->
+
+<!-- Property: has name of place -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70001">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:label xml:lang="en">has name of place</rdfs:label>
+  <reg:name xml:lang="en">nameOfPlace</reg:name>
+  <skos:definition xml:lang="en">Relates a place to a word, character, or group of words and/or characters by which a place is known.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/nameOfPlace.en" />
+  <rdakit:toolkitLabel xml:lang="en">name of place</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="en">A word, character, or group of words or characters by which a place is known.</rdakit:toolkitDefinition>
+  <reg:hasUnconstrained rdf:resource="http://rdaregistry.info/Elements/u/P60366" />
+  <rdakit:instructionNumber xml:lang="">16.2</rdakit:instructionNumber>
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70001" />
+  <reg:name xml:lang="da">navnPåEtSted</reg:name>
+  <rdfs:label xml:lang="da">har navn på et sted</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/navnPåEtSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et ord, tegn eller gruppe af ord og/eller tegn, som et sted er kendt under.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="da">navn på et sted</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="da">Ord, tegn eller gruppe af ord og/eller tegn, som et sted er kendt under.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="vi">tênĐịaĐiểm</reg:name>
+  <rdfs:label xml:lang="vi">có tên địa điểm</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với từ, ký tự, hoặc nhóm từ và/hoặc ký tự mà theo đó địa điểm được biết đến.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="vi">tên địa điểm</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="vi">Từ, ký tự, hoặc nhóm từ hoặc ký tự mà theo đó địa điểm được biết đến.</rdakit:toolkitDefinition>
+  <rdfs:label xml:lang="de">hat Namen eines Geografikums</rdfs:label>
+  <skos:definition xml:lang="de">Setzt ein Geografikum mit einem Wort, einem Zeichen oder einer Gruppe von Wörtern und/oder Zeichen, unter dem/der ein Geografikum bekannt ist, in Beziehung.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="de">Name eines Geografikums</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="de">Ein Wort, ein Zeichen oder eine Gruppe von Wörtern und/oder Zeichen, unter dem/der ein Geografikum bekannt ist.</rdakit:toolkitDefinition>
+  <rdfs:label xml:lang="ca">té com a nom de lloc</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una paraula, caràcter i/o grup de paraules o de caràcters pel qual es coneix un lloc.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="ca">nom de lloc</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="ca">Paraula, caràcter o grup de paraules o de caràcters pel qual es coneix un lloc.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="fi">paikannimi</reg:name>
+  <rdfs:label xml:lang="fi">paikannimi</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikannimi.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan sanaan, merkkiin tai joukkoon sanoihin ja/tai merkkejä, joilla paikka tunnetaan.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="fi">paikannimi</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="fi">Sana, merkki tai joukko sanoja ja/tai merkkejä, joilla paikka tunnetaan.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="fr">nomDeLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour nom de lieu</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/nomDeLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un mot, un caractère ou un groupe de mots ou de caractères sous lequel un lieu est connu.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="fr">nom de lieu</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="fr">Mot, caractère ou groupe de mots ou de caractères sous lequel un lieu est connu.</rdakit:toolkitDefinition>
+  <rdakit:toolkitLabel xml:lang="no">stedsnavn</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="no">Et ord, et tegn eller en gruppe av ord eller tegn som et sted er kjent under.</rdakit:toolkitDefinition>
+</owl:AnnotationProperty>
+
+<!-- Property: has preferred name for place -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70002">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:label xml:lang="en">has preferred name for place</rdfs:label>
+  <reg:name xml:lang="en">preferredNameForPlace</reg:name>
+  <skos:definition xml:lang="en">Relates a place to a name or form of name chosen to identify a place.</skos:definition>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70001" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/preferredNameForPlace.en" />
+  <rdakit:toolkitLabel xml:lang="en">preferred name for place</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="en">A name or form of name chosen to identify a place.</rdakit:toolkitDefinition>
+  <reg:hasUnconstrained rdf:resource="http://rdaregistry.info/Elements/u/P60548" />
+  <rdakit:instructionNumber xml:lang="">16.2.2</rdakit:instructionNumber>
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70002" />
+  <reg:name xml:lang="da">foretrukkenNavneformForEtSted</reg:name>
+  <rdfs:label xml:lang="da">har foretrukken navneform for et sted</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/foretrukkenNavneformForEtSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et navn eller en navneform, der er valgt til identifikation af et sted.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="da">foretrukken navneform for et sted</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="da">Navn eller navneform, der er valgt til identifikation af et sted.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="vi">tênƯuTiênCủaĐịaĐiểm</reg:name>
+  <rdfs:label xml:lang="vi">có tên ưu tiên của địa điểm</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tên hoặc hình thái của tên được chọn lựa để nhận dạng địa điểm.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="vi">tên ưu tiên của địa điểm</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="vi">Tên hoặc hình thái của tên được chọn lựa để nhận dạng địa điểm.</rdakit:toolkitDefinition>
+  <rdfs:label xml:lang="de">hat Bevorzugter Name eines Geografikums</rdfs:label>
+  <skos:definition xml:lang="de">Setzt einen Namen oder eine Namensform, der/die gewählt wird, um ein Geografikum zu identifizieren, in Beziehung.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="de">Bevorzugter Name eines Geografikums</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="de">Ein Name oder eine Namensform, der/die gewählt wird, um ein Geografikum zu identifizieren.</rdakit:toolkitDefinition>
+  <rdfs:label xml:lang="ca">té com a nom preferit de lloc</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un nom o forma de nom triat per identificar un lloc.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="ca">nom preferit de lloc</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="ca">Nom o forma de nom triat per identificar un lloc.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="fi">paikanEnsisijainenNimi</reg:name>
+  <rdfs:label xml:lang="fi">paikan ensisijainen nimi</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikanEnsisijainenNimi.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan nimeen tai nimenmuotoon, joka on valittu identifioimaan paikkaa.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="fi">paikan ensisijainen nimi</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="fi">Nimi tai nimenmuoto, joka on valittu identifioimaan paikkaa.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="fr">nomPrivilégiéDunLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour nom privilégié d’un lieu</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/nomPrivilégiéDunLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un nom ou une forme de nom choisie pour identifier un lieu.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="fr">nom privilégié d’un lieu</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="fr">Nom ou forme de nom choisie pour identifier un lieu.</rdakit:toolkitDefinition>
+  <rdakit:toolkitLabel xml:lang="no">foretrukket stedsnavn</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="no">Et navn eller en navneform som er valgt for å identifisere et sted.</rdakit:toolkitDefinition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related agent (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70008">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedAgentPlace</reg:name>
+  <rdfs:label xml:lang="en">has related agent (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedAgentPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to an agent associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70008" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70014" />
+  <reg:name xml:lang="da">relateretAgentSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret agent (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretAgentSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en agent der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmTácNhânCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có tác nhân có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tác nhân liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a agent relacionat (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un agent associat amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaToimija</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä toimija</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaToimija.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan toimijaan, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">agentEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour agent en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/agentEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un agent associé à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related collective agent (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70009">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedCollectiveAgentPlace</reg:name>
+  <rdfs:label xml:lang="en">has related collective agent (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedCollectiveAgentPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a collective agent associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70009" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70008" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70015" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70016" />
+  <reg:name xml:lang="da">relateretFællesAgentSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret kollektiv agent (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretFællesAgentSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en fælles agent der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmTácNhânTậpThểCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có tác nhân tập thể có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tác nhân tập thể liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a agent col·lectiu relacionat (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un agent col·lectiu associat amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaYhteistoimija</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä yhteistoimija</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaYhteistoimija.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan yhteistoimijaan, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">agentCollectifEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour agent collectif en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/agentCollectifEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un agent collectif associé à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related corporate body (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70016">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70009" />
+  <reg:name xml:lang="en">relatedCorporateBodyPlace</reg:name>
+  <rdfs:label xml:lang="en">has related corporate body (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedCorporateBodyPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a corporate body associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70016" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70016" />
+  <reg:name xml:lang="da">relateretKorporationSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret korporation (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretKorporationSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en korporation der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmTậpThểCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có tập thể có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tập thể liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a entitat corporativa relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una entitat corporativa associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaYhteiso</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä yhteisö</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaYhteiso.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan yhteisöön, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">collectivitéEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour collectivité en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/collectivitéEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une collectivité associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related entity (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70013">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedEntityPlace</reg:name>
+  <rdfs:label xml:lang="en">has related entity (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedEntityPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to an entity associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70013" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70004" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70005" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70006" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70007" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70008" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70010" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70011" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70012" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/x/P00001" />
+  <reg:name xml:lang="da">relateretEntitetSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret entitet (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretEntitetSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en entitet der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmThựcThểCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có thực thể có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với thực thể liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a entitat relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una entitat associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaEntiteetti</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä entiteetti</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaEntiteetti.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan entiteettiin, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">entitéEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour entité en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/entitéEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une entité associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related expression (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70005">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedExpressionPlace</reg:name>
+  <rdfs:label xml:lang="en">has related expression (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedExpressionPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to an expression associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70005" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:name xml:lang="da">relateretUdtrykSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret udtryk (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretUdtrykSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et udtryk der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmBiểuHiệnCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có biểu hiện có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với biểu hiện liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a expressió relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una expressió associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaEkspressio</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä ekspressio</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaEkspressio.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan ekspressioon, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">expressionEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour expression en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/expressionEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une expression associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related family (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70015">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70009" />
+  <reg:name xml:lang="en">relatedFamilyPlace</reg:name>
+  <rdfs:label xml:lang="en">has related family (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedFamilyPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a family associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70015" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70015" />
+  <reg:name xml:lang="da">relateretFamilieSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret familie (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretFamilieSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en familie der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmGiaĐìnhCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có gia đình có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với gia đình liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a família relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una família associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaSuku</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä suku</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaSuku.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan sukuun, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">familleEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour famille en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/familleEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une famille associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related item (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70007">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedItemPlace</reg:name>
+  <rdfs:label xml:lang="en">has related item (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedItemPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to an item associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70007" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:name xml:lang="da">relateretEksemplarSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret eksemplar (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretEksemplarSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et eksemplar der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmBảnCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có bản có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với bản liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a ítem relacionat (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una obra associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaKappale</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä kappale</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaKappale.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan kappaleeseen, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">itemEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour item en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/itemEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un item associé à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related manifestation (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70006">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedManifestationPlace</reg:name>
+  <rdfs:label xml:lang="en">has related manifestation (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedManifestationPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a manifestation associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70006" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:name xml:lang="da">relateretManifestationSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret manifestation (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretManifestationSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en manifestation der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmBiểuThịCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có biểu thị có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với biểu thị liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a manifestació relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una manifestació associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaManifestaatio</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä manifestaatio</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaManifestaatio.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan manifestaatioon, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">manifestationEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour manifestation en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/manifestationEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une manifestation associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related nomen (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70012">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedNomenPlace</reg:name>
+  <rdfs:label xml:lang="en">has related nomen (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedNomenPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a nomen associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70012" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:name xml:lang="da">relateretNomenSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret nomen (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretNomenSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et nomen der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmDanhPhápCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có danh pháp có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với danh pháp liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a nomen relacionat (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un nomen associat amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaNomen</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä nomen</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaNomen.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan nomeniin, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">nomenEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour nomen en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/nomenEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un nomen associé à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related person (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70014">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70008" />
+  <reg:name xml:lang="en">relatedPersonPlace</reg:name>
+  <rdfs:label xml:lang="en">has related person (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedPersonPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a person associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/P70014" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70014" />
+  <reg:name xml:lang="da">relateretPersonSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret person (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretPersonSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en person der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmCáNhânCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có cá nhân có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với cá nhân liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a persona relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una persona associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaHenkilo</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä henkilö</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaHenkilo.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan henkilöön, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">personneEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour personne en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/personneEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une personne associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related place (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70010">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedPlacePlace</reg:name>
+  <rdfs:label xml:lang="en">has related place (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedPlacePlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a place associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70010" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:name xml:lang="da">relateretStedSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret sted (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretStedSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et sted der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmĐịaĐiểmCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có địa điểm có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với địa điểm liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a lloc relacionat (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un lloc associat amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaPaikka</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä paikka</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaPaikka.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan paikkaan, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">lieuEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour lieu en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/lieuEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un lieu associé à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related time-span (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70011">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedTimespanPlace</reg:name>
+  <rdfs:label xml:lang="en">has related time-span (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedTimespanPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a time-span associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70011" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:name xml:lang="da">relateretPeriode</reg:name>
+  <rdfs:label xml:lang="da">har relateret periode (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretPeriode.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en periode der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmKhungThờiGianCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có khung thời gian có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với khung thời gian liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a període de temps relacionat (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un període de temps associat amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaAjankohta</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä ajankohta</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaAjankohta.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan ajankohtaan, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">lapsDeTempsEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour laps de temps en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/lapsDeTempsEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un laps de temps associé à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has related work (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70004">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <reg:name xml:lang="en">relatedWorkPlace</reg:name>
+  <rdfs:label xml:lang="en">has related work (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relatedWorkPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a work associated with a place being described.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70004" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70013" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/object/P70004" />
+  <reg:name xml:lang="da">relateretVærkSted</reg:name>
+  <rdfs:label xml:lang="da">har relateret værk (sted)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/relateretVærkSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et værk der er knyttet til et beskrevet sted.</skos:definition>
+  <reg:name xml:lang="vi">địaĐiểmTácPhẩmCóLiênQuan</reg:name>
+  <rdfs:label xml:lang="vi">có tác phẩm có liên quan (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tác phẩm liên quan tới địa điểm đang được mô tả.</skos:definition>
+  <rdfs:label xml:lang="ca">té com a obra relacionada (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una obra associada amb un lloc que es descriu.</skos:definition>
+  <reg:name xml:lang="fi">paikkaanLiittyvaTeos</reg:name>
+  <rdfs:label xml:lang="fi">paikkaan liittyvä teos</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaanLiittyvaTeos.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan teokseen, johon kuvailun kohteena oleva paikka liittyy.</skos:definition>
+  <reg:name xml:lang="fr">œuvreEnRelationLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour œuvre en relation (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/œuvreEnRelationLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une œuvre associée à un lieu décrit.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: is subject of (place) -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70017">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:label xml:lang="en">is subject of (place)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/subjectOfPlace.en" />
+  <skos:definition xml:lang="en">Relates a place to a work that is about a place.</skos:definition>
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70017" />
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/object/P70017" />
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/P10283" />
+  <reg:name xml:lang="en">subjectOfPlace</reg:name>
+  <reg:name xml:lang="da">emneForSted</reg:name>
+  <rdfs:label xml:lang="da">er emne for sted</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/emneForSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til et verk der handler om et sted.</skos:definition>
+  <reg:name xml:lang="vi">chủĐềCủaĐịaĐiểm</reg:name>
+  <rdfs:label xml:lang="vi">là chủ đề của (địa điểm)</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tác phẩm về địa điểm.</skos:definition>
+  <rdfs:label xml:lang="ca">és matèria de (lloc)</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb una obra que tracta d’un lloc.</skos:definition>
+  <reg:name xml:lang="fi">paikkaAiheenaTeoksessa</reg:name>
+  <rdfs:label xml:lang="fi">paikka aiheena teoksessa</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikkaAiheenaTeoksessa.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan teokseen, jonka aiheena paikka on.</skos:definition>
+  <reg:name xml:lang="fr">sujetDeLieu</reg:name>
+  <rdfs:label xml:lang="fr">est sujet de (lieu)</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/sujetDeLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec une œuvre qui traite d’un lieu.</skos:definition>
+</owl:AnnotationProperty>
+
+<!-- Property: has variant name for place -->
+<owl:AnnotationProperty rdf:about="http://rdaregistry.info/Elements/p/P70003">
+  <rdfs:isDefinedBy rdf:resource="http://rdaregistry.info/Elements/p/" />
+  <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
+  <rdfs:label xml:lang="en">has variant name for place</rdfs:label>
+  <reg:name xml:lang="en">variantNameForPlace</reg:name>
+  <skos:definition xml:lang="en">Relates a place to a name or form of name by which a place is known that differs from a name or form of name chosen as a preferred name.</skos:definition>
+  <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/p/P70001" />
+  <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10009" />
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/variantNameForPlace.en" />
+  <rdakit:toolkitLabel xml:lang="en">variant name for place</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="en">A name or form of name by which a place is known that differs from a name or form of name chosen as a preferred name.</rdakit:toolkitDefinition>
+  <reg:hasUnconstrained rdf:resource="http://rdaregistry.info/Elements/u/P60880" />
+  <rdakit:instructionNumber xml:lang="">16.2.3</rdakit:instructionNumber>
+  <reg:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/p/datatype/P70003" />
+  <skos:scopeNote xml:lang="en">Variant name for place includes a name or form of name found in reference sources, or a name resulting from a different transliteration of a name, etc.</skos:scopeNote>
+  <reg:name xml:lang="da">variantnavnForEtSted</reg:name>
+  <rdfs:label xml:lang="da">har variantnavn for et sted</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/variantnavnForEtSted.da" />
+  <skos:definition xml:lang="da">Relaterer et sted til en navn eller navneform, hvorunder et sted er kendt, og som adskiller sig fra det navn eller den navneform, der er valgt som foretrukket navn.</skos:definition>
+  <rdakit:toolkitLabel xml:lang="da">variantnavn for et sted</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="da">Navn eller navneform, hvorunder et sted er kendt, og som adskiller sig fra det navn eller den navneform, der er valgt som foretrukket navn.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="vi">tênKhácCủaĐịaĐiểm</reg:name>
+  <rdfs:label xml:lang="vi">có tên khác của địa điểm</rdfs:label>
+  <skos:definition xml:lang="vi">Liên kết địa điểm với tên hoặc hình thái của tên mà theo đó địa điểm được biết đến khác với tên hoặc hình thái của tên được chọn lựa như là tên ưu tiên.</skos:definition>
+  <skos:scopeNote xml:lang="vi">Tên khác của địa điểm bao gồm tên hoặc hình thái của tên được tìm thấy trong các nguồn tham khảo, hoặc tên sinh ra từ phiên âm khác nhau của tên, v.v...</skos:scopeNote>
+  <rdakit:toolkitLabel xml:lang="vi">tên khác của địa điểm</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="vi">Tên hoặc hình thái của tên mà theo đó địa điểm được biết đến khác với tên hoặc hình thái của tên được chọn lựa như là tên ưu tiên.</rdakit:toolkitDefinition>
+  <rdfs:label xml:lang="de">hat abweichenden Name eines Geografikums</rdfs:label>
+  <skos:definition xml:lang="de">Setzt einen Namen oder eine Namensform, unter dem/der ein Geografikum bekannt ist, der/die sich von dem Namen oder der Namensform unterscheidet, der/die als bevorzugter Name gewählt wurde, in Beziehung.</skos:definition>
+  <skos:scopeNote xml:lang="de">Zu einem abweichenden Namen eines Geografikums gehört ein Name oder eine Namensform wie er/sie in Nachschlagewerken gefunden wird/werden, ein Titel der sich aus einer abweichenden Transliteration ergibt usw.</skos:scopeNote>
+  <rdakit:toolkitLabel xml:lang="de">Abweichender Name eines Geografikums</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="de">Ein Name oder eine Namensform, unter dem/der ein Geografikum bekannt ist, der/die sich von dem Namen oder der Namensform unterscheidet, der/die als bevorzugter Name gewählt wurde.</rdakit:toolkitDefinition>
+  <rdfs:label xml:lang="ca">té com a variant de nom de lloc</rdfs:label>
+  <skos:definition xml:lang="ca">Relaciona un lloc amb un nom o forma de nom pel qual es coneix un lloc i que difereix del nom o la forma de nom triat com a nom preferit.</skos:definition>
+  <skos:scopeNote xml:lang="ca">La variant de nom de lloc inclou un nom o forma de nom trobat en les fonts de referència, o un nom que és el resultat d’una transliteració diferent d’un nom, etc.</skos:scopeNote>
+  <rdakit:toolkitLabel xml:lang="ca">variant de nom de lloc</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="ca">Nom o forma de nom pel qual es coneix un lloc i que difereix del nom o la forma de nom triat com a nom preferit.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="fi">paikanVarianttinimi</reg:name>
+  <rdfs:label xml:lang="fi">paikan varianttinimi</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/paikanVarianttinimi.fi" />
+  <skos:definition xml:lang="fi">Liittää paikan ensisijaisesta nimestä tai nimenmuodosta poikkeavaan nimeen tai nimenmuotoon, jolla paikka tunnetaan.</skos:definition>
+  <skos:scopeNote xml:lang="fi">Paikan varianttinimi on nimi tai nimenmuoto, jota on käytetty tietolähteissä tai joka on translitteroitu eri tavoin tms.</skos:scopeNote>
+  <rdakit:toolkitLabel xml:lang="fi">paikan varianttinimi</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="fi">Ensisijaisesta nimestä tai nimenmuodosta poikkeava nimi tai nimenmuoto, jolla paikka tunnetaan.</rdakit:toolkitDefinition>
+  <reg:name xml:lang="fr">varianteDeNomDeLieu</reg:name>
+  <rdfs:label xml:lang="fr">a pour variante de nom de lieu</rdfs:label>
+  <reg:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/p/varianteDeNomDeLieu.fr" />
+  <skos:definition xml:lang="fr">Met un lieu en relation avec un nom ou une forme de nom sous laquelle un lieu est connu et qui diffère d’un nom ou d’une forme de nom choisie comme nom privilégié.</skos:definition>
+  <skos:scopeNote xml:lang="fr">L’élément Variante de nom de lieu comprend un nom ou une forme de nom trouvée dans les sources de référence ou une forme de nom qui résulte d’une translittération différente du nom.</skos:scopeNote>
+  <rdakit:toolkitLabel xml:lang="fr">variante de nom de lieu</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="fr">Nom ou forme de nom sous laquelle un lieu est connu et qui diffère d’un nom ou d’une forme de nom choisie comme nom privilégié.</rdakit:toolkitDefinition>
+  <rdakit:toolkitLabel xml:lang="no">variantform av stedsnavn</rdakit:toolkitLabel>
+  <rdakit:toolkitDefinition xml:lang="no">Et navn eller en navneform som et sted er kjent under og som avviker fra navnet eller navneformen som er valgt som det foretrukne navnet.</rdakit:toolkitDefinition>
+</owl:AnnotationProperty>
+
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+</rdf:RDF>
